@@ -1,0 +1,53 @@
+body {
+    background-color: #EE4066;
+    display: flex;
+}
+
+.main-div{
+    background: linear-gradient(135deg, #FCEFDB 40%, #F7B6F1);
+    width: 100%;
+    margin: 40px 0;
+}   
+
+.heading-text{
+    color: #EE4066;
+}
+
+.text-lorem{
+    font-size: 14px;
+}
+
+
+.icons{
+    background-color: #EE4066;
+    border-radius: 25px 0 0 25px;
+}
+.username{
+    padding-right: 10px;
+    background-color: #EE4066;
+    border-radius: 0 25px 25px 0;
+}
+
+input::placeholder {
+    color: white !important;
+    font-style: italic;
+}
+
+
+.btn{
+    color: white;
+    background-color: #EE4066;
+    width: 120px;
+    padding: 8px 5px;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #ec1a47;
+}
+
+@media only screen and (min-width: 601px) {
+    .bg-white{
+        margin-right: 50px;
+    }
+}
