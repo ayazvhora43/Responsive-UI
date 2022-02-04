@@ -33,6 +33,11 @@ input::placeholder {
     font-style: italic;
 }
 
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #EE4066;
+    caret-color: #EE4066;
+    box-shadow: none;
+}
 
 .btn{
     color: white;
@@ -44,6 +49,7 @@ input::placeholder {
 
 .btn:hover{
     background-color: #ec1a47;
+    box-shadow:none;
 }
 
 @media only screen and (min-width: 601px) {
