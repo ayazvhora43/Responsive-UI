@@ -35,7 +35,7 @@ input::placeholder {
 
 input[type=text]:focus, input[type=password]:focus {
     background-color: #EE4066;
-    caret-color: #ffffff;
+    caret-color: white ! important;
     box-shadow: none;
 }
 
