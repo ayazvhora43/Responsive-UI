@@ -25,6 +25,7 @@ body {
 .username{
     padding-right: 10px;
     background-color: #EE4066;
+    caret-color: white;
     border-radius: 0 25px 25px 0;
 }
 
